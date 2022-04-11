@@ -1,0 +1,87 @@
+html, body {
+    background: #121214;
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+    
+}
+.logokenzie {
+    width: 100%;
+    text-align: center;
+    
+      
+}
+
+.quem {
+    height: 42px;
+    left: 464px;
+    top: 183px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+    font-size: 32px;
+          
+    
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    margin: auto;
+    }
+
+.usuarios {
+    width: 170px;
+    color: #9c9c9c;
+    text-align: center;
+    margin-left: 20px;
+    font-family: 'IBM Plex Sans';
+    border-radius: 18px;
+    overflow: hidden;
+
+}
+
+.gerenciar {
+    width: 150px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    color: white;
+    border: 1.5px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 8px;    
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+    padding: 10px;
+    margin: auto;
+}
+.gerenciar:hover {
+    width: 10%;
+    color: black;
+    background: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px; 
+    transition: 1s;
+}
+.imgpai:hover img {    
+    transition: 1s;
+    transform: scale(1.3);    
+
+}
+.imgpai {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.botaogerenciar {
+    align-items: center;
+}
+.nomesusarios {
+    padding-top: 20px;
+
+}
